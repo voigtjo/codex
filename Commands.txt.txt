@@ -1,0 +1,10 @@
+npm create vite@latest client --template vanilla
+cd client
+npm install
+...
+npm run dev
+
+cd ..; cd server;
+npm init -y
+npm install cors dotenv express nodemon openai
+npm run server
